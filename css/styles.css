@@ -12,6 +12,10 @@ body {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
 }
+.logo-nav:hover,
+.logo-nav:focus {
+  color: #404bbf;
+}
 h1 {
   font-size: 56px;
 }
@@ -40,8 +44,8 @@ footer {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.spc a:hover,
-.spc a:focus {
+.spc:hover,
+.spc:focus {
   color: #404bbf;
 }
 .contacts-adr {
@@ -54,8 +58,8 @@ footer {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-et a:hover,
-.contacts-et a:focus {
+.contacts-et:hover,
+.contacts-et:focus {
   color: #404bbf;
 }
 .title {
@@ -125,10 +129,11 @@ footer {
 .logo-navf {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
 .logof {
   font-weight: 700;
