@@ -153,3 +153,9 @@ footer {
 .ourmark {
   background-color: #f4f4fd;
 }
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
