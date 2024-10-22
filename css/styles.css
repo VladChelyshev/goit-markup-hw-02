@@ -1,6 +1,15 @@
 body {
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
+}
+.logo-nav {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 h1 {
   font-size: 56px;
@@ -8,28 +17,95 @@ h1 {
 h3 {
   font-size: 20px;
 }
-.accomplishments > p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 .navigation-gl {
   background: #fff;
 }
 .section-f {
   background: #2e2f42;
 }
-h2 {
+
+footer {
+  background: #2e2f42;
+}
+
+.logo {
+  color: #2e2f42;
+}
+.studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.studio a:hover,
+.studio a:focus {
+  color: #404bbf;
+}
+.contacts-adr {
+  font-style: normal;
+}
+.contacts-et {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts-et a:hover,
+.contacts-et a:focus {
+  color: #404bbf;
+}
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.butt {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.butt a:hover,
+.butt a:focus {
+  background-color: #404bbf;
+}
+.section-b {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section_b {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.our_team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
-h3 {
+.mark {
+  background-color: #ffffff;
+}
+.marko {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -37,10 +113,7 @@ h3 {
   text-align: center;
   color: #2e2f42;
 }
-.our-team {
-  background: #f4f4fd;
-}
-.our-team > p {
+.markp {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -48,56 +121,26 @@ h3 {
   text-align: center;
   color: #434455;
 }
-.our-portfolio > p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.logo-navf {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
-footer > p {
+.logof {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.endf {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-footer {
-  background: #2e2f42;
-}
-.contacts-adr a:hover,
-.contacts-adr a:focus {
-  color: #4d5ae5;
-}
-.button {
-  font-size: 16px;
-}
-.butt {
-  color: #4d5ae5;
-  cursor: pointer;
-}
-.butt:hover,
-.butt:focus {
-  color: #4d5ae5;
-}
-.navigation {
-  font-size: 16px;
-}
-.navigation .studio:hover,
-.navigation .studio:focus {
-  color: #404bbf;
-}
-.navigation.studio:active {
-  color: #404bbf;
-}
-.navigation .portfolio:hover,
-.navigation .portfolio:focus {
-  color: #404bbf;
-}
-.navigation .contacts:hover,
-.navigation .contacts:focus {
-  color: #404bbf;
-}
-.logo {
-  color: #4d5ae5;
 }
