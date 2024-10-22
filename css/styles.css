@@ -1,0 +1,103 @@
+body {
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  color: #434455;
+}
+h1 {
+  font-size: 56px;
+}
+h3 {
+  font-size: 20px;
+}
+.accomplishments > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.navigation-gl {
+  background: #fff;
+}
+.section-f {
+  background: #2e2f42;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-team {
+  background: #f4f4fd;
+}
+.our-team > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.our-portfolio > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+footer > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+footer {
+  background: #2e2f42;
+}
+.contacts-adr a:hover,
+.contacts-adr a:focus {
+  color: #4d5ae5;
+}
+.button {
+  font-size: 16px;
+}
+.butt {
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.butt:hover,
+.butt:focus {
+  color: #4d5ae5;
+}
+.navigation {
+  font-size: 16px;
+}
+.navigation .studio:hover,
+.navigation .studio:focus {
+  color: #404bbf;
+}
+.navigation.studio:active {
+  color: #404bbf;
+}
+.navigation .portfolio:hover,
+.navigation .portfolio:focus {
+  color: #404bbf;
+}
+.navigation .contacts:hover,
+.navigation .contacts:focus {
+  color: #404bbf;
+}
+.logo {
+  color: #4d5ae5;
+}
